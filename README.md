@@ -74,7 +74,7 @@ If there is some error related to image file type or size of the image then serv
 
 ![Update Event Request Error](https://github.com/mitul3011/Event-Manager-API/blob/main/example%20images/Update%20Event%20Error.png "Update Event request error")
 
-![Update Event Not Exist Error](https://github.com/mitul3011/Event-Manager-API/blob/main/example%20images/Update%20Event%20Error20Not20Exists.png "Update Event not exist error")
+![Update Event Not Exist Error](https://github.com/mitul3011/Event-Manager-API/blob/main/example%20images/Update%20Event%20Not%20Exists.png "Update Event not exist error")
 
 **Note: Images are stored in `base64` format using [multer](https://www.npmjs.com/package/multer) library and images for event cover will be cropped to size 500x500px and images for event icon will be cropped to size 250x250px and all uploaded images will be converted to `.png` format using [sharp](https://www.npmjs.com/package/sharp) library.**
 
